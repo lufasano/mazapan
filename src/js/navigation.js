@@ -20,7 +20,7 @@ $(document).ready(function () {
     $("a[href*=#]:not([href=#])").click(function () {
       if (
         location.pathname.replace(/^\//, "") ==
-          this.pathname.replace(/^\//, "") &&
+        this.pathname.replace(/^\//, "") &&
         location.hostname == this.hostname
       ) {
         var target = $(this.hash);
@@ -38,5 +38,22 @@ $(document).ready(function () {
         }
       }
     });
+  });
+
+  /* Mobile Navigation  */
+
+  $(".js--nav-icon").click(function () {
+    var nav = $(".js--main-nav");
+    var icon = $(".js--nav-icon i");
+
+    nav.slideToggle(200);
+
+    if (icon.hasClass("ion-navicon-round")) {
+      icon.addClass("ion-close-round");
+      icon.removeClass("ion-navicon-round");
+    } else {
+      icon.addClass("ion-navicon-round");
+      icon.removeClass("ion-close-round");
+    }
   });
 });

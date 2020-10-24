@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1200px) {
+  .row {
+    padding: 0 2%;
+  }
+  .main-nav {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .row {
+    padding: 0 2%;
+  }
+  .social-links {
+    font-size: 75%;
+    margin-right: 0;
+  }
+  .seccion-contacto h2 {
+    font-size: 175%;
+    margin-top: -10px;
+  }
+  .footer-nav {
+    font-size: 85%;
+  }
+  .linkedin {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+
+  .main-nav {
+    margin-top: 45px;
+    margin-right: 30px;
+    display: none;
+  }
+  header img {
+    width: 275px;
+    bottom: -80px;
+  }
+  .row {
+    padding: 0 4%;
+  }
+
+  .col-contacto {
+    margin-top: -40px;
+    margin-right: 0;
+  }
+  .seccion-contacto h2 {
+    margin-top: 20px;
+  }
+  .footer-nav li {
+    display: block;
+    margin-top: 8px;
+  }
+  .mobile-nav-icon {
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+   
+    
+  }
+  .main-nav li {
+    display: block;
+    margin-top: 3px;
+    text-align: right;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .seccion-sucursales p {
+    margin-bottom: 20px;
+  }
+  .seccion-contacto h2 {
+    text-align: left;
+    margin: -10px 0 0 10px;
+  }
+  .col-contacto {
+    margin-top: -60px;
+  }
+}

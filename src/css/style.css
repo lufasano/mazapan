@@ -85,6 +85,7 @@ header img {
   float: right;
   list-style: none;
   margin-top: 50px;
+  
 }
 
 .main-nav li {
@@ -108,6 +109,15 @@ header img {
 }
 
 /* Mobile nav */
+
+.mobile-nav-icon {
+  cursor: pointer;
+  display: none;
+}
+.mobile-nav-icon ion-icon {
+  font-size: 200%;
+  color: #ffedd5;
+}
 
 /* --------------------------------- */
 /* SECCION PRODUCTOS */
