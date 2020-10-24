@@ -212,6 +212,10 @@ header img {
 .seccion-sucursales ion-icon {
   margin-right: 8px;
 }
+.seccion-sucursales .underline {
+  border-bottom: 1px solid #b04703;
+  padding: 2px;
+}
 
 /* --------------------------------- */
 /* SECCION CONTACTO */
