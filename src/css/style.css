@@ -85,7 +85,6 @@ header img {
   float: right;
   list-style: none;
   margin-top: 50px;
-  
 }
 
 .main-nav li {
@@ -215,6 +214,13 @@ header img {
 .seccion-sucursales .underline {
   border-bottom: 1px solid #b04703;
   padding: 2px;
+}
+
+.seccion-sucursales .row {
+  text-align: center;
+}
+.seccion-sucursales .col {
+  display: inline-block;
 }
 
 /* --------------------------------- */
@@ -391,4 +397,16 @@ footer .linkedin:hover {
 
 footer ion-icon {
   transition: all 0.5s ease;
+}
+
+/* --------------------------------- */
+/* FIXED */
+/* --------------------------------- */
+
+.fixed-whatsapp img {
+  width: 50px;
+  position: fixed;
+  line-height: 50px;
+  bottom: 20px;
+  left: 20px;
 }
